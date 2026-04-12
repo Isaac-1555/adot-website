@@ -21,7 +21,7 @@ export default function AdminDashboard() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-[family-name:var(--font-heading)] font-bold mb-2">Dashboard</h1>
-        <p className="text-[var(--text-muted)]">Welcome back, DJ Abu. Here&apos;s what&apos;s happening.</p>
+        <p className="text-[var(--text-muted)]">Welcome back, DJ ADOT. Here&apos;s what&apos;s happening.</p>
       </div>
 
       {/* Stats */}

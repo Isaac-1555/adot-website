@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-[family-name:var(--font-heading)] font-bold uppercase mb-4 flex items-center gap-2">
               <Music className="w-6 h-6 text-[var(--accent-primary)]" />
-              DJ ABU
+              DJ ADOT
             </h3>
             <p className="text-[var(--text-muted)] text-sm">
               Professional DJ for clubs, weddings, and private events in NYC and the tri-state area.
@@ -62,7 +62,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-[var(--border-subtle)] text-center text-[var(--text-muted)] text-sm">
-          © {new Date().getFullYear()} DJ Abu. All rights reserved.
+          © {new Date().getFullYear()} DJ ADOT. All rights reserved.
         </div>
       </div>
     </footer>

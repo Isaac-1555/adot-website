@@ -26,7 +26,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 text-xl font-[family-name:var(--font-heading)] font-bold uppercase tracking-wider">
             <Disc className="w-6 h-6 text-[var(--accent-primary)]" />
-            DJ ABU
+            DJ ADOT
           </Link>
 
           {/* Desktop Nav */}

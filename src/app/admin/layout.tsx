@@ -55,7 +55,7 @@ export default function AdminLayout({
         </nav>
 
         <div className="pt-6 border-t border-[var(--border-subtle)] flex items-center justify-between">
-          <span className="text-sm font-medium text-[var(--text-muted)]">DJ Abu</span>
+          <span className="text-sm font-medium text-[var(--text-muted)]">DJ ADOT</span>
           <button onClick={handleLogout} className="p-2 text-[var(--text-muted)] hover:text-red-500 transition-colors">
             <LogOut className="w-5 h-5" />
           </button>

@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "DJ Abu | Clubs, Weddings & Events",
+  title: "DJ ADOT | Clubs, Weddings & Events",
   description: "Professional DJ for clubs, weddings, and private events. Check availability and book your next event.",
 };
 
