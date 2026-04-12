@@ -1,10 +1,11 @@
 "use client";
 
-import { ConvexProvider, ConvexReactClient } from "convex/react";
+import { ConvexReactClient } from "convex/react";
+import { ConvexProvider } from "convex/react";
 import { ReactNode } from "react";
 
 const convex = new ConvexReactClient(
-  process.env.NEXT_PUBLIC_CONVEX_URL || "https://abudj-12345.convex.cloud"
+  process.env.NEXT_PUBLIC_CONVEX_URL || "http://127.0.0.1:3210"
 );
 
 export function ConvexClientProvider({ children }: { children: ReactNode }) {

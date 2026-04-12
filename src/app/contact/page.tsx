@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Send, CheckCircle, AlertCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function Contact() {
   const createBooking = useMutation(api.schema.createBookingRequest);
@@ -48,6 +49,7 @@ export default function Contact() {
       });
       setSubmitted(true);
     } catch (err) {
+      console.error(err);
       setError("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
@@ -71,9 +73,9 @@ export default function Contact() {
               <p className="text-[var(--text-muted)] mb-8">
                 Thanks for reaching out! I&apos;ll get back to you within 24 hours with availability and a quote.
               </p>
-              <a href="/" className="text-[var(--accent-primary)] hover:underline">
+              <Link href="/" className="text-[var(--accent-primary)] hover:underline">
                 ← Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ChevronLeft, ChevronRight, MapPin, ExternalLink, Calendar as CalendarIcon } from "lucide-react";
-import { useQuery, useMutation } from "convex/react";
+import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import Link from "next/link";
 
