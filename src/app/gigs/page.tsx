@@ -13,7 +13,7 @@ type Event = any;
 
 export default function Gigs() {
   const [currentDate, setCurrentDate] = useState(new Date());
-  const events = useQuery(api.schema.getEvents);
+  const events = useQuery(api.api.getEvents);
   
   useGSAP(() => {
     gsap.from(".gigs-title", { y: 20, opacity: 0, duration: 0.6 });

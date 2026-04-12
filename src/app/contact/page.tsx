@@ -9,7 +9,7 @@ import { Send, CheckCircle, AlertCircle } from "lucide-react";
 import Link from "next/link";
 
 export default function Contact() {
-  const createBooking = useMutation(api.schema.createBookingRequest);
+  const createBooking = useMutation(api.api.createBookingRequest);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);

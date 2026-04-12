@@ -11,7 +11,7 @@ import { useState } from "react";
 type Media = any;
 
 export default function Music() {
-  const media = useQuery(api.schema.getMedia);
+  const media = useQuery(api.api.getMedia);
   const [activeTab, setActiveTab] = useState<"audio" | "video">("audio");
   
   useGSAP(() => {

@@ -10,9 +10,9 @@ type Event = any;
 type Request = any;
 
 export default function AdminDashboard() {
-  const events = useQuery(api.schema.getEvents);
-  const media = useQuery(api.schema.getMedia);
-  const requests = useQuery(api.schema.getBookingRequests);
+  const events = useQuery(api.api.getEvents);
+  const media = useQuery(api.api.getMedia);
+  const requests = useQuery(api.api.getBookingRequests);
 
   const upcomingGigs = (events as Event[] | undefined)?.filter((e: Event) => new Date(e.date) >= new Date()) || [];
   const pendingRequests = (requests as Request[] | undefined)?.slice(0, 5) || [];
